@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Checkout') {
        steps {
-                git branch: 'main', url: 'https://github.com/asamaranayake/weather-api.git'
+                git branch: 'main', url: 'https://github.com/isuru-sap/Pipeline_job.git'
             }
         }
 
